@@ -8,7 +8,7 @@ All we need to do now is put this information online for the world to see and th
 There is just one tiny problem though... our collection is too large to search through manually. Even our most dedicated followers are complaining that they
 are having trouble locating specific reports in this mess.
 
-Table dynamically created based upon a [provided dataset](static/js/data.js)- using only JavaScript, HTML, and CSS, and D3.js.  The table can be filtered by one or more of the search criteria in the left hand navigation menu: <a href="https://danawoodruff.github.io/javascript-challenge/">GitPage</a><br>
+Table dynamically created based upon a [provided dataset](static/js/data.js)- using only JavaScript, HTML, and CSS, and D3.js.  The table can be filtered by one or more of the search criteria in the left hand navigation menu: <a href="https://danawoodruff.github.io/javascript-challenge/">View GitHub-Page</a><br>
 
 To view the JavaScript code: [JavaScript Code](static/js/app.js)<br>
 To view the HTML code: [HTML Code](index.html)</p><br>
