@@ -23,7 +23,7 @@ var data = [{
     country: "us",
     shape: "triangle",
     durationMinutes: "6 minutes",
-    comments: "I saw Elon Musk's car in space but it seemed too low"
+    comments: "I saw Elon Musk's car floating but it seemed too low since it is in space. Did aliens take it over?"
   },
   {
     datetime: "1/1/2010",
@@ -50,7 +50,7 @@ var data = [{
     country: "us",
     shape: "triangle",
     durationMinutes: "a few mintues",
-    comments: "Triangle shaped craft with three red lights at points hovering over Grants Pass&#44 Oregon."
+    comments: "Triangle shaped craft with three red lights at points hovering over Grants Pass Oregon."
   },
   {
     datetime: "1/1/2010",
@@ -158,7 +158,7 @@ var data = [{
     country: "us",
     shape: "triangle",
     durationMinutes: "4-6 minutes",
-    comments: "3 bright red lights hovering high in the sky in an elongated triangle pattern just after midnight 2010 in La Mesa&#44 Ca"
+    comments: "3 bright red lights hovering high in the sky in an elongated triangle pattern just after midnight and going towards downtown"
   },
   {
     datetime: "1/1/2010",
@@ -194,7 +194,7 @@ var data = [{
     country: "us",
     shape: "disk",
     durationMinutes: "8 mins",
-    comments: "We experienced red disk over the falcon&#44 colorado sky within the first minutes of the new year."
+    comments: "We experienced red disk over the falcon, colorado sky within the first minutes of the new year."
   },
   {
     datetime: "1/1/2010",
@@ -203,7 +203,7 @@ var data = [{
     country: "us",
     shape: "unknown",
     durationMinutes: "2 minutes",
-    comments: "Orange/Yellow flickering light in the sky with no sound and abrupt changes in direction&#44 below 12&#44000 feet."
+    comments: "Orange/Yellow flickering light in the sky with no sound and abrupt changes in direction and below 12 feet."
   },
   {
     datetime: "1/1/2010",
