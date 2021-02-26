@@ -1,4 +1,4 @@
-<p align="center"><img width="100%" height="144" src="images/ufo2.jpg"></p>
+<p align="center"><img width="100%" height="144" src="static/images/ufo2.jpg"></p>
 <br>            
 
 <p>
