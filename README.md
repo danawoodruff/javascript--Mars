@@ -8,5 +8,5 @@ All we need to do now is put this information online for the world to see and th
 There is just one tiny problem though... our collection is too large to search through manually. Even our most dedicated followers are complaining that they
 are having trouble locating specific reports in this mess.
 
-Create a table dynamically based upon a [dataset we provide](StarterCode/static/js/data.js). We also need to allow our users to filter the table data for specific values. There's a catch though... we only use pure JavaScript, HTML, and CSS, and D3.js on our web pages. </p><br>
+Create a table dynamically based upon a [dataset we provide](StarterCode/static/js/data.js)- use only JavaScript, HTML, and CSS, and D3.js.</p><br>
 
