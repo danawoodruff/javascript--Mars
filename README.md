@@ -12,4 +12,4 @@ Table dynamically created based upon a [provided dataset](StarterCode/static/js/
 
 <p align="center"><img width="1362" height="auto" src="static/images/pageview.PNG"></p>
 
-<h2 align="center">The truth is out there.</h2><br>
+
