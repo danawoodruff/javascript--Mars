@@ -1,10 +1,11 @@
+// Import the dataset from data.js into the table body
 
 let tbody = d3.select("tbody");
 
 // Check that data is being called
 console.log(data);
 
-// Append the records of data.js to table
+// Append the records of data.js to table using arrow
 data.forEach((record) => {
     let row = tbody.append("tr");
     Object.entries(record).forEach(([key, value]) => {
@@ -25,15 +26,15 @@ button.on("click", function () {
     let inputElement2 = d3.select("#state");
     let inputElement3 = d3.select("#shape");
 
-    // Get the value property of the input date, state, and shape
+    // Get the value property of the user input for date, state, and shape
     let inputValue = inputElement.property("value");
     let inputValue2 = inputElement2.property("value");
     let inputValue3 = inputElement3.property("value");
 
-    // console.log input value
+    // console.log input value to check that data is being called
     console.log(inputValue);
 
-    // Filter Data with datetime equal to input value and then filter by state and shape, if input
+    // Filter Data with datetime equal to input value and/or then filter by state and shape
     let filteredData = data.filter(sighting => {
     return (sighting.datetime === inputValue  || !inputValue) && 
     (sighting.state === inputValue2 || !inputValue2) &&
@@ -43,15 +44,15 @@ button.on("click", function () {
     // Display filtered values
     filteredData.forEach(function (selections) {
 
-        // Append one table row `tr` for each UFO Sighting object
+        // Append one table row `tr` for each UFO Sighting. Similar to intial row and data append but "longhand"
         let row = tbody.append("tr");
 
-        // Use `Object.entries` to console.log each UFO Sighting value
+        // Use `Object.entries` to console.log each UFO Sighting value to cells
         Object.entries(selections).forEach(function ([key, value]) {
-            console.log(key, value); // This code can be deleted
+            console.log(key, value); // This code can be deleted, only used to check data call
 
             // Append a cell to the row for each value
-            var cell = row.append("td");
+            let cell = row.append("td");
             cell.text(value);
         });
     });
