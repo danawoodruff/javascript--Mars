@@ -27,8 +27,8 @@ var data = [{
   },
   {
     datetime: "1/1/2010",
-    city: "el cajon",
-    state: "ca",
+    city: "south park",
+    state: "il",
     country: "us",
     shape: "triangle",
     durationMinutes: "12 minutes",
@@ -99,12 +99,12 @@ var data = [{
   },
   {
     datetime: "1/1/2010",
-    city: "el cajon",
-    state: "ca",
+    city: "galveston",
+    state: "tx",
     country: "us",
     shape: "formation",
     durationMinutes: "15 min.",
-    comments: "Three red lights over the San Diego area - IT&#39S A HOAX YET AGAIN&#33&#33"
+    comments: "Three red lights over the west beach area and darting towards the anchored tankers"
   },
   {
     datetime: "1/1/2010",
@@ -306,6 +306,15 @@ var data = [{
   },
   {
     datetime: "1/2/2010",
+    city: "springfield",
+    state: "in",
+    country: "us",
+    shape: "disc",
+    durationMinutes: "10min",
+    comments: "son said it was a flying disc but daughter states it was a weather balloon"
+  },
+  {
+    datetime: "1/2/2010",
     city: "orange",
     state: "ca",
     country: "us",
@@ -386,13 +395,22 @@ var data = [{
     comments: "didnt move like a plane or helicopter&#44 too close to be a star."
   },
   {
+    datetime: "1/3/2010",
+    city: "cedartown",
+    state: "ga",
+    country: "us",
+    shape: "disc",
+    durationMinutes: "8min",
+    comments: "car radio and then car died. bright hovering light that disappeared. car was then fine"
+  },
+  {
     datetime: "1/4/2010",
     city: "glen spey",
     state: "ny",
     country: "us",
     shape: "flash",
     durationMinutes: "35 mins",
-    comments: "colorful flashing craft hovers for 30mins &amp;  then flashes violet&#44 followed by dashing to the right &amp; disappearing"
+    comments: "colorful flashing craft hovers for 30mins &amp;  then flashes violet&#44 followed by dashing to the right; disappearing"
   },
   {
     datetime: "1/4/2010",
@@ -486,6 +504,15 @@ var data = [{
   },
   {
     datetime: "1/5/2010",
+    city: "sedona",
+    state: "az",
+    country: "us",
+    shape: "light",
+    durationMinutes: "13min",
+    comments: "colored lights backlighting shapes in the desert"
+  },
+  {
+    datetime: "1/5/2010",
     city: "clinton",
     state: "nj",
     country: "us",
@@ -546,6 +573,15 @@ var data = [{
     shape: "disk",
     durationMinutes: "1 hour",
     comments: "disc shape hovering above Searcy&#44 AR"
+  },
+  {
+    datetime: "1/6/2010",
+    city: "imperial beach",
+    state: "ca",
+    country: "us",
+    shape: "circle",
+    durationMinutes: "1min",
+    comments: "smoky light that zoomed to beach. landed in water. saw steam but nothing else"
   },
   {
     datetime: "1/7/2010",
