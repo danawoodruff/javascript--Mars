@@ -1,4 +1,4 @@
-<p align="center"><img width="100%" height="150" src="static/images/nasa.jpg"></p>
+<p align="center"><img width="100%" height="auto" src="static/images/truth.jpg"></p>
 <br>            
 
 <p>
