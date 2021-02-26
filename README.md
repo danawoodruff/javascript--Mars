@@ -10,4 +10,4 @@ are having trouble locating specific reports in this mess.
 
 Create a table dynamically based upon a [provided dataset](StarterCode/static/js/data.js)- use only JavaScript, HTML, and CSS, and D3.js...and feel confident that the truth is out there.</p><br>
 
-<p align="center"><img width="1362" height="1254" src="static/images/pageview.png"></p>
+<p align="center"><img width="1362" height="1254" src="static/images/pageview.PNG"></p>
