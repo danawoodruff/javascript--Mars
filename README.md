@@ -1,3 +1,4 @@
+<html>
 <p align="center"><img width="100%" height="auto" src="static/images/truth.jpg"></p>
 <br>            
 <body>
@@ -17,4 +18,4 @@ To view the HTML code: [HTML Code](index.html)</p><br>
 
 <p align="center"><img width="1362" height="auto" src="static/images/pageview.PNG"></p>
 </body>
-
+</html?
