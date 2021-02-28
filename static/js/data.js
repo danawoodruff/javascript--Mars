@@ -167,7 +167,7 @@ var data = [{
     country: "us",
     shape: "light",
     durationMinutes: "one minute",
-    comments: "Upper atmosphere object moving south & becoming stationary and later moving east at a high rate of speed."
+    comments: "Upper atmosphere object moving south&#44 becoming stationary and later moving east at a high rate of speed."
   },
   {
     datetime: "1/1/2010",
@@ -239,7 +239,7 @@ var data = [{
     country: "us",
     shape: "sphere",
     durationMinutes: "20 minutes",
-    comments: "Orange spheres in sky New Year&#39s Eve&#44 San Diego, CA"
+    comments: "Orange spheres in sky New Year&#39s Eve&#44 San Diego&#44 CA"
   },
   {
     datetime: "1/1/2010",
@@ -302,7 +302,7 @@ var data = [{
     country: "us",
     shape: "light",
     durationMinutes: "1 minute",
-    comments: "Two Crafts dancing in the sky"
+    comments: "Two Crafts dancing in the sky&#33"
   },
   {
     datetime: "1/2/2010",
@@ -320,7 +320,7 @@ var data = [{
     country: "us",
     shape: "light",
     durationMinutes: "5-6 minutes",
-    comments: "Point of light in daytime sky over Orange CA"
+    comments: "Point of light in daytime sky over Orange&#44 CA"
   },
   {
     datetime: "1/2/2010",
@@ -329,7 +329,7 @@ var data = [{
     country: "us",
     shape: "rectangle",
     durationMinutes: "10 seconds",
-    comments: "A bright light in Phoenix hovered above houses in broad daylight & then vanished"
+    comments: "A bright light in Phoenix hovered above houses in broad daylight&#44 then vanished"
   },
   {
     datetime: "1/2/2010",
@@ -365,7 +365,7 @@ var data = [{
     country: "us",
     shape: "triangle",
     durationMinutes: "2 minutes",
-    comments: "Triangle shaped craft with orange-yellow lights that hovered very low near Redstone Arsenal in Madison Al"
+    comments: "Triangle shaped craft with orange-yellow lights that hovered very low near Redstone Arsenal in Madison&#44 Al"
   },
   {
     datetime: "1/2/2010",
@@ -374,7 +374,7 @@ var data = [{
     country: "us",
     shape: "cross",
     durationMinutes: "5 minutes",
-    comments: "extremely bright light over tree in loveland CO"
+    comments: "extremely bright light over tree in loveland&#44 CO"
   },
   {
     datetime: "1/2/2010",
@@ -582,15 +582,6 @@ var data = [{
     shape: "circle",
     durationMinutes: "1min",
     comments: "smoky light that zoomed to beach. landed in water. saw steam but nothing else"
-  },
-  {
-    datetime: "1/6/2010",
-    city: "bellville",
-    state: "tx",
-    country: "us",
-    shape: "disc",
-    durationMinutes: "3min",
-    comments: "really bright light and humming noise. Disappeared and our winery grape vines were flattened in a large circle"
   },
   {
     datetime: "1/7/2010",

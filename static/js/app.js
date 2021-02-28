@@ -1,11 +1,10 @@
-// Import the dataset from data.js into the table body
 
 let tbody = d3.select("tbody");
 
 // Check that data is being called
 console.log(data);
 
-// Append the records of data.js to table using arrow
+// Append the records of data.js to table
 data.forEach((record) => {
     let row = tbody.append("tr");
     Object.entries(record).forEach(([key, value]) => {
@@ -23,36 +22,42 @@ button.on("click", function () {
 
     // Declare variables for date, state, and shape
     let inputElement = d3.select("#datetime");
+    let inputElement4 = d3.select("#city");
     let inputElement2 = d3.select("#state");
+    let inputElement5 = d3.select("#country");
     let inputElement3 = d3.select("#shape");
 
-    // Get the value property of the user input for date, state, and shape
+    // Get the value property of the input date, state, and shape
     let inputValue = inputElement.property("value");
     let inputValue2 = inputElement2.property("value");
     let inputValue3 = inputElement3.property("value");
+    let inputValue4 = inputElement4.property("value");
+    let inputValue5 = inputElement5.property("value");
 
-    // console.log input value to check that data is being called
+    // console.log input value
     console.log(inputValue);
 
-    // Filter Data with datetime equal to input value and/or then filter by state and shape
+    // Filter Data with datetime equal to input value and then filter by state and shape, if input
     let filteredData = data.filter(sighting => {
-    return (sighting.datetime === inputValue  || !inputValue) && 
+    return (sighting.datetime === inputValue  || !inputValue) &&
+    (sighting.city === inputValue4 || !inputValue4) &&
     (sighting.state === inputValue2 || !inputValue2) &&
+    (sighting.country === inputValue5 || !inputValue5) &&
     (sighting.shape === inputValue3 || !inputValue3)
     });
 
     // Display filtered values
     filteredData.forEach(function (selections) {
 
-        // Append one table row `tr` for each UFO Sighting. Similar to intial row and data append but "longhand"
+        // Append one table row `tr` for each UFO Sighting object
         let row = tbody.append("tr");
 
-        // Use `Object.entries` to console.log each UFO Sighting value to cells
+        // Use `Object.entries` to console.log each UFO Sighting value
         Object.entries(selections).forEach(function ([key, value]) {
-            console.log(key, value); // This code can be deleted, only used to check data call
+            console.log(key, value); // This code can be deleted
 
             // Append a cell to the row for each value
-            let cell = row.append("td");
+            var cell = row.append("td");
             cell.text(value);
         });
     });
