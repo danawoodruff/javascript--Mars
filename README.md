@@ -10,6 +10,8 @@ are having trouble locating specific reports in this mess.
 
 Table dynamically created based upon a [provided dataset](static/js/data.js)- using only JavaScript, HTML, and CSS, and D3.js.  The table can be filtered by one or more of the search criteria in the left hand navigation menu: <a href="https://danawoodruff.github.io/javascript-challenge/">View GitHub-Page</a><br>
 
+The filters will clear and the page will refresh when "Clear Filters" button is clicked.
+
 To view the JavaScript code: [JavaScript Code](static/js/app.js)<br>
 To view the HTML code: [HTML Code](index.html)</p><br>
 
