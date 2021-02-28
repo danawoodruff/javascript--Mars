@@ -20,6 +20,9 @@ button.on("click", function () {
 
     tbody.html("");
 
+    // Prevent the page from refreshing
+    d3.event.preventDefault();
+
     // Declare variables for date, state, and shape
     let inputElement = d3.select("#datetime");
     let inputElement4 = d3.select("#city");
@@ -54,7 +57,7 @@ button.on("click", function () {
 
         // Use `Object.entries` to console.log each UFO Sighting value
         Object.entries(selections).forEach(function ([key, value]) {
-            console.log(key, value); // This code can be deleted
+            console.log(key, value); // This line of code can be deleted
 
             // Append a cell to the row for each value
             var cell = row.append("td");
