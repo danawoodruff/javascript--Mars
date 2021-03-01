@@ -18,6 +18,15 @@ var data = [{
   },
   {
     datetime: "1/1/2010",
+    city: "cambridge",
+    state: "ma",
+    country: "us",
+    shape: "circle",
+    durationMinutes: "5 minutes",
+    comments: "Weird light shot down and hovered like a halo around John Harvard's head in Harvard Square"
+  },
+  {
+    datetime: "1/1/2010",
     city: "el cajon",
     state: "ca",
     country: "us",
