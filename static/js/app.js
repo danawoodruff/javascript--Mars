@@ -31,11 +31,11 @@ button.on("click", function () {
     let inputElement3 = d3.select("#shape");
 
     // Get the value property of the input date, state, and shape
-    let inputValue = inputElement.property("value");
-    let inputValue2 = inputElement2.property("value");
-    let inputValue3 = inputElement3.property("value");
-    let inputValue4 = inputElement4.property("value");
-    let inputValue5 = inputElement5.property("value");
+    let inputValue = inputElement.property("value").toLowerCase();
+    let inputValue2 = inputElement2.property("value").toLowerCase();
+    let inputValue3 = inputElement3.property("value").toLowerCase();
+    let inputValue4 = inputElement4.property("value").toLowerCase();
+    let inputValue5 = inputElement5.property("value").toLowerCase();
 
     // console.log input value
     console.log(inputValue);
