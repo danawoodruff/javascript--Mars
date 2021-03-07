@@ -17,4 +17,4 @@ To view the HTML code: [HTML Code](index.html)</p><br>
 
 <p align="center"><img width="1362" height="auto" src="static/images/pageview.PNG"></p>
 </body>
-</html?
+</html>
